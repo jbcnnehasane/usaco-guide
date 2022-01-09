@@ -53,7 +53,7 @@ bool valid_sq(int x, int y) {
 		&& (field[x][y] == 'G' || field[x][y] == 'M');
 }
 
-bool mecho_reached(int mecho_dis, int bees_dis){
+bool mecho_reached(int mecho_dis, int bees_dis) {
 	return mecho_dis / s < bees_dis;
 }
 
